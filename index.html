@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026 九州行程表</title><meta name="description" content="11/3–11/14 九州行程，手機單日卡片、桌面表格與地圖連結。">
+<link rel="stylesheet" href="style.css"><script src="itinerary.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<main>
+<header><div><h1>九州 · 隨身行程表</h1><p>2026/11/3–11/14 · 12 天 11 晚</p><p id="updated">讀取行程中…</p></div><button id="theme">切換黑底</button></header>
+<div class="toolbar">
+<label>字體 <input id="font" type="range" min="12" max="24" value="16"><output id="fontout">16 px</output></label>
+<button id="mode">切換顯示</button>
+<div class="tablecontrols"><label>欄寬 <input id="width" type="range" min="150" max="400" step="10" value="220"><output id="widthout">220 px</output></label><label>表格寬 <input id="viewwidth" type="range" min="50" max="100" value="100"><output id="viewwidthout">100%</output></label><label>表格高 <input id="height" type="range" min="300" max="1100" step="10" value="650"><output id="heightout">650 px</output></label><button id="reset">重設表格</button></div>
+</div>
+<div class="legend"><span>🟩 已訂餐廳</span><span>🟦 已購一日遊</span><span>🟨 交通／換房</span><span>🟪 住宿</span></div>
+<section id="dayview"><div class="daynav"><div class="navrow"><button id="prev" aria-label="前一天">‹</button><select id="date" aria-label="選擇日期"></select><button id="next" aria-label="後一天">›</button></div><div class="tabs" id="tabs"></div></div><div class="dayheading"><h2 id="city"></h2><span id="count"></span></div><div id="cards"></div><div class="daybottom"><button id="prevbottom">前一天</button><button id="nextbottom">後一天</button></div></section>
+<section id="tableview"><p class="hint">拖曳日期標題右側邊界調整欄寬。表格右下角可拉動大小；向右捲動可查看全部日期。</p><div class="frame" id="frame" tabindex="0" aria-label="完整行程表"><table id="table"><colgroup id="cols"></colgroup><thead id="thead"></thead><tbody id="tbody"></tbody></table></div></section>
+<details><summary>交通與待確認事項</summary><ul><li>11/7 同行者實際航班時間待提供，不能套用本人 11/3 的通知。</li><li>11/9 團車約 18:00 回熊本站，19:00 晚餐僅約一小時含市區移動；留意延誤。</li><li>兩個一日遊集合資訊為公開方案，實際以個人憑證及行前通知為準。</li><li>11/4、11/5、11/12 尚待排；一般日目標不超過約 13,000 步。</li><li>住宿未提供完整地址者，地圖搜尋結果須與訂單核對。</li></ul></details>
+<footer>時間依各地當地時間；臺灣段另有標示。住宿在行程最下方獨立列出。<br>公開版不包含私人預算、訂單編號、房號與入住密碼。<p><a href="public-itinerary.md">公開行程文字版</a></p><div id="status" role="status" aria-live="polite"></div></footer>
+<noscript><p>互動表格需要 JavaScript。可開啟上方「公開行程文字版」閱讀。</p></noscript>
+</main></body></html>

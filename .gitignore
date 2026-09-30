@@ -1,0 +1,10 @@
+# Keep credentials and full private planning out of the public repository.
+.env
+.env.*
+*.pem
+*.key
+private/
+*_private.md
+2026年11月九州旅行規劃專案.md
+node_modules/
+*.zip
