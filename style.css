@@ -47,6 +47,7 @@ html.dark .placeholder{background:#303236!important}
 .hscroll[aria-disabled=true] #hthumb{opacity:.4;cursor:default}
 .frame::-webkit-scrollbar:horizontal{height:0}
 .header-actions{display:flex;gap:8px;flex-shrink:0}
+body.daymode #fullscreen{display:none}
 #fullscreen svg{width:28px;height:28px;display:block;margin:auto}
 .table-shell{display:grid;grid-template-columns:minmax(0,1fr) 22px;gap:6px;min-height:0}
 .frame,.cell-content{scrollbar-width:none;scrollbar-gutter:auto}
