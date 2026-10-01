@@ -3,15 +3,22 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 <title>2026 九州行程表</title><meta name="description" content="11/3–11/14 九州行程，手機單日卡片、桌面表格與地圖連結。">
+<meta name="theme-color" content="#101613"><link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css"><script src="itinerary.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
 <main>
+<a class="skip-link" href="#journey">跳至行程</a>
+<div class="edition"><span>旅の記録 / TRAVEL JOURNAL</span><span>NOVEMBER 2026 · VOL. 01</span></div>
 <header><div><h1>九州 · 隨身行程表</h1><p>2026/11/3–11/14 · 12 天 11 晚</p><p id="updated">讀取行程中…</p></div><div class="header-actions"><button id="fullscreen" class="iconbutton" aria-label="表格全螢幕" title="表格全螢幕" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9 3 3M3 8V3h5M15 9l6-6M16 3h5v5M9 15l-6 6M3 16v5h5M15 15l6 6M16 21h5v-5"/></svg></button><button id="theme" class="iconbutton" aria-label="切換白底" title="切換白底">☀️</button></div></header>
+<section class="trip-intro" aria-label="九州旅行概覽"><div><span class="eyebrow">十二日，從城市走向山野</span><p class="trip-title">KYUSHU<span aria-hidden="true">九州</span></p><p class="trip-caption">帶著這份行程，慢慢走過福岡與熊本。</p><a class="journey-link" href="#journey">查看行程 <span aria-hidden="true">↓</span></a></div><svg class="landscape" viewBox="0 0 260 170" fill="none" aria-hidden="true"><path d="M8 128 58 108 104 48 126 71 145 53 211 122 252 134M104 48l-6 32 28-9 13 23 6-41M25 140c65-29 116-17 211 7M15 151c78-20 157-8 236 10"/><path d="M18 105C43 77 62 65 77 49m97 3c36 5 61 18 75 40M39 91c15-19 28-29 36-36m110 11c19 5 34 13 47 26" opacity=".4"/><circle cx="205" cy="32" r="17"/><path d="M3 167h253" opacity=".35"/></svg><div class="trip-facts"><div><strong>12</strong><span>旅行天數</span></div><div><strong>11</strong><span>連續住宿</span></div><div><strong>02</strong><span>一日遊</span></div></div></section>
+<nav class="route-nav" aria-label="旅程路線"><button data-route="0"><span class="route-number">01</span><span>福岡<small>11/03 起</small></span></button><span class="route-line" aria-hidden="true"></span><button data-route="4"><span class="route-number">02</span><span>熊本<small>11/07 起</small></span></button><span class="route-line" aria-hidden="true"></span><button data-route="7"><span class="route-number">03</span><span>福岡<small>11/10 起</small></span></button></nav>
+<div class="journey-heading" id="journey" tabindex="-1"><span class="eyebrow">YOUR ITINERARY</span><h2>行程，隨手可查。</h2><span class="journey-period">11.03 — 11.14</span></div>
 <div class="toolbar">
 <button id="mode">切換顯示</button>
 <label class="tablecontrols fullcontrols">預設顯示天數 <select id="visibleDays" aria-label="預設顯示天數"><option value="auto">自動</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option selected>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select></label>
 <label class="tablecontrols fullcontrols">開始日 <select id="startdate" aria-label="表格開始日"></select></label>
+<button id="settings" class="tablecontrols" aria-expanded="false" aria-controls="lock width rowheight font height reset">顯示設定 <span aria-hidden="true">＋</span></button>
 <button class="tablecontrols" id="lock" aria-pressed="true">🔒 尺寸已鎖定</button>
 <label class="tablecontrols">全部欄寬 <input id="width" type="range" min="1" max="520" step="any" value="160" disabled></label>
 <label class="tablecontrols">全部列高 <input id="rowheight" type="range" min="100" max="600" step="1" value="400" disabled></label>
@@ -19,7 +26,7 @@
 <label class="tablecontrols">表格高度 <input id="height" type="range" min="100" max="1100" step="1" value="650"></label>
 <button class="tablecontrols" id="reset">重設表格</button>
 </div>
-<div class="legend"><span>🟩 已訂餐廳</span><span>🟦 已購一日遊</span><span>🟨 交通／換房</span><span>🟪 住宿</span></div>
+<div class="legend" aria-label="行程分類"><span class="legend-book">已訂餐廳</span><span class="legend-tour">已購一日遊</span><span class="legend-move">交通／換房</span><span class="legend-stay">住宿</span></div>
 <section id="dayview"><div class="daynav"><div class="navrow"><button id="prev" aria-label="前一天">‹</button><select id="date" aria-label="選擇日期"></select><button id="next" aria-label="後一天">›</button></div><div class="tabs" id="tabs"></div></div><div class="dayheading"><h2 id="city"></h2><span id="count"></span></div><div id="cards"></div><div class="daybottom"><button id="prevbottom">前一天</button><button id="nextbottom">後一天</button></div></section>
 <section id="tableview"><p class="hint" id="sizehint">可選開始日與一次顯示天數，行程結束後以灰底留白。鎖定時列高自動展開；解鎖後手動調整列高才改為統一高度。拖曳表格底部可增加表格高度，最多展開完整表格。</p><div class="table-shell"><div class="frame" id="frame" tabindex="0" aria-label="完整行程表"><table id="table"><colgroup id="cols"></colgroup><thead id="thead"></thead><tbody id="tbody"></tbody></table></div><div id="vscroll" class="vscroll" role="scrollbar" tabindex="0" aria-controls="frame" aria-orientation="vertical" aria-label="上下捲動行程表"><span id="vthumb"></span></div></div><div id="framegrip" class="framegrip" role="separator" tabindex="0" aria-orientation="horizontal" aria-label="拖曳調整表格高度"></div><div id="hscroll" class="hscroll" role="scrollbar" tabindex="0" aria-controls="frame" aria-orientation="horizontal" aria-label="左右捲動行程表"><span id="hthumb"></span></div></section>
 <details><summary>交通與待確認事項</summary><ul><li>11/7 同行者實際航班時間待提供，不能套用本人 11/3 的通知。</li><li>11/9 團車約 18:00 回熊本站，19:00 晚餐僅約一小時含市區移動；留意延誤。</li><li>兩個一日遊集合資訊為公開方案，實際以個人憑證及行前通知為準。</li><li>11/4、11/5、11/12 尚待排；一般日目標不超過約 13,000 步。</li><li>住宿未提供完整地址者，地圖搜尋結果須與訂單核對。</li></ul></details>
