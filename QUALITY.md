@@ -1,5 +1,7 @@
 # 九州旅行網站品質檢查 · v10
 
+v12 手機精簡表格：收起大型頁首與路線導覽，常駐模式、開始日與設定；設定可在有限高度中捲動，表格隨之調整剩餘高度。已驗證 390×844 直向與 740×390 橫向的捲動條均在畫面底部可見，以及設定收合、天數／日期切換、全螢幕還原。
+
 這是專案自我檢查紀錄，不是獎項評審認證，也不代表網站已達到獲獎資格。
 
 設計參考 [Webby 網站評選面向](https://www.webbyawards.com/judging-criteria/)的內容、導覽、視覺、功能與整體體驗，以及 [Awwwards Mobile Excellence](https://www.awwwards.com/mobile-excellence-guidelines.pdf)的行動體驗方向。

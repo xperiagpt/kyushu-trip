@@ -203,3 +203,25 @@ footer a{padding:8px 0;display:inline-block}
   .hint{font-size:11px}.daynav{padding-top:8px}
 }
 @media(prefers-reduced-motion:reduce){button,select{transition:none}button:active:not(:disabled){transform:none}}
+
+/* Phone table is a compact viewport; card and desktop layouts stay independent. */
+@media(max-width:760px){
+  body.tablemode:not(.tablefull){overflow:hidden}
+  body.tablemode:not(.tablefull) main{height:100dvh;display:flex;flex-direction:column;gap:8px;padding:8px 8px max(8px,env(safe-area-inset-bottom));overflow:hidden}
+  body.tablemode:not(.tablefull) .edition,body.tablemode:not(.tablefull) .trip-intro,body.tablemode:not(.tablefull) .route-nav,body.tablemode:not(.tablefull) .journey-heading,body.tablemode:not(.tablefull) header p,body.tablemode:not(.tablefull) .legend,body.tablemode:not(.tablefull) #sizehint,body.tablemode:not(.tablefull) #framegrip,body.tablemode:not(.tablefull) main>details,body.tablemode:not(.tablefull) footer{display:none}
+  body.tablemode:not(.tablefull) header{flex:0 0 auto;min-height:44px}
+  body.tablemode:not(.tablefull) header h1{font-size:13px;letter-spacing:.04em}
+  body.tablemode:not(.tablefull) .toolbar{flex:0 0 auto;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);gap:8px;padding:8px;max-height:45dvh;overflow:auto}
+  body.tablemode:not(.tablefull) .toolbar #mode{grid-column:1;grid-row:1;font-size:12px;padding:6px}
+  body.tablemode:not(.tablefull) .toolbar #settings{grid-column:3;grid-row:1;font-size:12px;padding:6px;gap:4px}
+  body.tablemode:not(.tablefull) .toolbar label:has(#startdate){grid-column:2;grid-row:1;flex-direction:column;align-items:flex-start;justify-content:center;font-size:10px;gap:2px}
+  body.tablemode:not(.tablefull) .skip-link{display:none}
+  body.tablemode:not(.tablefull) #startdate{font-size:14px;padding:6px;width:100%}
+  body.tablemode:not(.tablefull):not(.controlsopen) .toolbar label:has(#visibleDays){display:none}
+  body.tablemode:not(.tablefull) .toolbar #lock,body.tablemode:not(.tablefull) .toolbar label:not(:has(#startdate)){grid-column:span 3}
+  body.tablemode:not(.tablefull) .toolbar label:has(#height){display:none}
+  body.tablemode:not(.tablefull) #tableview{flex:1;min-height:0;display:flex;flex-direction:column;gap:6px}
+  body.tablemode:not(.tablefull) .table-shell{flex:1;min-height:0}
+  body.tablemode:not(.tablefull) .frame{height:100%!important;min-height:0}
+  body.tablemode:not(.tablefull) .hscroll{flex:0 0 22px;position:relative}
+}
