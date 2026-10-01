@@ -226,11 +226,20 @@ footer a{padding:8px 0;display:inline-block}
   body.tablemode:not(.tablefull) .hscroll{flex:0 0 22px;position:relative}
 }
 .event-note{display:none}
+/* Touch devices can have a desktop-sized CSS viewport in landscape. */
+@media(max-width:760px), (max-width:1024px) and (max-height:500px), (hover:none) and (pointer:coarse){
+  html,body{width:100%;max-width:100%;overflow-x:clip}
+  body.tablefull .toolbar,body.tablefull .fullcontrols{display:none!important}
+  body.tablefull #tableview{inset:0 64px 0 0;padding:0;max-width:none}
+  body.tablefull header{top:max(8px,env(safe-area-inset-top));right:8px;width:48px;margin:0}
+  body.tablefull .frame{border-radius:0}
+  body.tablefull .hscroll{margin-bottom:max(0px,env(safe-area-inset-bottom))}
+}
 @media(max-width:760px), (max-width:1024px) and (max-height:500px){
   html,body{width:100%;max-width:100%;overflow-x:clip}
   main,main>*{min-width:0;max-width:100%}
   body.tablefull .toolbar{display:none}
-  body.tablefull #tableview{padding-top:64px}
+  body.tablefull #tableview{padding:0}
   body.tablefull header{right:8px}
 }
 @media(max-width:760px), (max-width:1024px) and (max-height:500px){

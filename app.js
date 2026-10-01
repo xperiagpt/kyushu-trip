@@ -27,7 +27,7 @@ function hotelHTML(h,compact=false){const note='<span class="note">'+esc(h.note)
 function tableEventHTML(e){if(!e.note||e.note.length<=24)return eventHTML(e);const html=eventHTML(e),note='<span class="note">'+esc(e.note)+'</span>';return html.replace(note,'<span class="note note-full">'+esc(e.note)+'</span><details class="event-note"><summary>查看備註</summary>'+note+'</details>');}
 let selected=0,forced=false,widths=data.days.map(()=>160),autoFit=true,locked=true,rowHeight=400,visibleDays=7,manualRows=false,manualViewport=false,startIndex=0,shownDays=[];
 let tableFull=false,fullState=null;
-function phoneLayout(){return matchMedia('(max-width:760px), (max-width:1024px) and (max-height:500px)').matches;}
+function phoneLayout(){return matchMedia('(max-width:760px), (max-width:1024px) and (max-height:500px), (hover:none) and (pointer:coarse)').matches;}
 let automaticDays=matchMedia('(max-width:1024px)').matches;
 if(automaticDays){visibleDays=1;$('visibleDays').value='auto';}
 $('settings').onclick=()=>{const open=document.body.classList.toggle('controlsopen');$('settings').setAttribute('aria-expanded',String(open));$('settings').innerHTML='顯示設定 <span aria-hidden="true">'+(open?'−':'＋')+'</span>';fitViewport();};
