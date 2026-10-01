@@ -4,7 +4,7 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,"Micr
 .toolbar{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;margin:16px 0}.toolbar label,.tablecontrols{display:flex;align-items:center;gap:8px;font-size:14px}.tablecontrols{flex-wrap:wrap;gap:12px 18px}input[type=range]{width:100px;accent-color:var(--link)}output{min-width:42px;color:var(--muted)}.legend{display:flex;gap:10px 16px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:12px 0}.book{background:var(--book)}.tour{background:var(--tour)}.move{background:var(--move)}.stay{background:var(--stay)}.hint,footer{font-size:13px;color:var(--muted);line-height:1.8}footer{margin-top:16px}
 body.daymode #tableview,body.daymode .tablecontrols,body.tablemode #dayview{display:none}#dayview{max-width:760px;margin:auto}.daynav{position:sticky;top:0;background:var(--bg);z-index:8;padding:8px 0 12px}.navrow{display:flex;gap:8px;align-items:center}.navrow select{flex:1;min-width:0;text-align:center;font-weight:650}.navrow button{flex:0 0 46px;padding:10px}.tabs{display:flex;gap:7px;overflow:auto;padding:3px 1px 6px;margin-top:10px;scrollbar-width:thin}.tab{flex:0 0 65px;font-size:14px;padding:8px 5px;line-height:1.5}.tab small{display:block;color:var(--muted);font-size:12px}.tab.active{border-color:var(--link);background:var(--head);box-shadow:inset 0 0 0 1px var(--link)}.dayheading{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin:7px 0 14px}.dayheading h2{font-size:22px;margin:0}.dayheading span{font-size:13px;color:var(--muted)}#cards{display:flex;flex-direction:column;gap:12px;font-size:var(--font);line-height:1.7}.card{border:1px solid var(--line);border-radius:13px;padding:16px;background:var(--panel);overflow-wrap:anywhere}.card.book{background:var(--book)}.card.tour{background:var(--tour)}.card.move{background:var(--move)}.card.stay{background:var(--stay)}.card h3{font-size:1em;margin:0 0 7px}.time{display:block;font-weight:700;margin-bottom:6px;font-variant-numeric:tabular-nums}.card .time{font-size:.9em;color:var(--muted)}.note{display:block;font-size:.85em;color:var(--muted);line-height:1.7;margin-top:7px}.badge{display:inline-block;font-size:.78em;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:2px 7px;margin-top:7px}.places{margin:7px 0;line-height:1.9}.places a{display:inline-block}.hotelname{display:block;font-weight:750;margin-bottom:6px}.staylabel{font-size:.85em;color:var(--muted);margin-bottom:7px}.daybottom{display:flex;gap:12px;margin-top:16px}.daybottom button{flex:1}
 .frame{width:100%;height:650px;max-width:100%;min-width:280px;min-height:260px;resize:both;overflow:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel);overscroll-behavior:contain}table{table-layout:fixed;border-spacing:0;border-collapse:separate;font-size:var(--font);line-height:1.65}th,td{padding:12px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}thead th{position:sticky;top:0;background:var(--head);z-index:4;text-align:left;padding-right:22px;height:90px}thead th:first-child{left:0;z-index:6}.rowhead{position:sticky;left:0;z-index:3;background:var(--head);text-align:center;font-size:.85em}.rowhead small{display:block;font-weight:400;color:var(--muted);margin-top:6px}.datehead{font-size:1.1em;font-weight:750}.cityhead,.people{display:block;font-size:.85em;margin-top:4px}.people{color:var(--muted)}.grip{position:absolute;top:0;bottom:0;right:0;width:12px;cursor:col-resize;touch-action:none}.grip:after{content:"";position:absolute;right:3px;top:15px;bottom:15px;width:2px;background:var(--line)}.grip:hover:after{background:var(--link)}.slot{height:112px}.event{margin-bottom:12px}.event:last-child{margin-bottom:0}.empty{color:var(--muted);font-size:.9em}details{border:1px solid var(--line);border-radius:12px;padding:14px;margin-top:18px;background:var(--panel);font-size:14px;line-height:1.8}summary{cursor:pointer;font-weight:650}#status{min-height:20px}
-@media(max-width:760px){main{padding:12px}h1{font-size:22px}header{align-items:center}header button{font-size:14px}.toolbar{padding:10px;gap:10px}.toolbar label{flex-wrap:wrap}input[type=range]{width:90px}.card{padding:15px}.frame{min-width:0;resize:vertical;height:580px}}
+@media(max-width:760px), (max-width:1024px) and (max-height:500px){main{padding:12px}h1{font-size:22px}header{align-items:center}header button{font-size:14px}.toolbar{padding:10px;gap:10px}.toolbar label{flex-wrap:wrap}input[type=range]{width:90px}.card{padding:15px}.frame{min-width:0;resize:vertical;height:580px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
 /* Full-trip layout and shared row sizing. */
@@ -66,8 +66,8 @@ body.tablefull{overflow:hidden}
 .tablefull .table-shell{flex:1;min-height:0}
 .tablefull .frame{height:100%!important;min-height:0}
 .tablefull .hscroll{flex:0 0 22px;position:relative}
-@media(max-width:760px){main{padding:12px}.iconbutton{font-size:24px}.tablecontrols{align-items:flex-start}.tablecontrols label{width:100%}.frame{resize:none}.card .time{font-size:1em}}
-@media(max-width:760px){
+@media(max-width:760px), (max-width:1024px) and (max-height:500px){main{padding:12px}.iconbutton{font-size:24px}.tablecontrols{align-items:flex-start}.tablecontrols label{width:100%}.frame{resize:none}.card .time{font-size:1em}}
+@media(max-width:760px), (max-width:1024px) and (max-height:500px){
   button,select{touch-action:manipulation}
   select{font-size:16px}
   body.tablemode main{padding:12px 8px}
@@ -179,7 +179,7 @@ footer a{padding:8px 0;display:inline-block}
 .tablefull .toolbar{border-radius:8px}
 .hscroll,.vscroll{background:var(--panel);border-radius:6px}
 #hthumb,#vthumb{background:var(--muted);border-radius:3px}
-@media(max-width:760px){
+@media(max-width:760px), (max-width:1024px) and (max-height:500px){
   main,body.tablemode main{padding:16px 12px}
   .edition{font-size:8px;letter-spacing:.09em;margin-bottom:16px;padding-bottom:10px}
   header{gap:8px}header h1{font-size:15px}header p{font-size:11px}#updated{font-size:9px}
@@ -205,7 +205,7 @@ footer a{padding:8px 0;display:inline-block}
 @media(prefers-reduced-motion:reduce){button,select{transition:none}button:active:not(:disabled){transform:none}}
 
 /* Phone table is a compact viewport; card and desktop layouts stay independent. */
-@media(max-width:760px){
+@media(max-width:760px), (max-width:1024px) and (max-height:500px){
   body.tablemode:not(.tablefull){overflow:hidden}
   body.tablemode:not(.tablefull) main{height:100dvh;display:flex;flex-direction:column;gap:8px;padding:8px 8px max(8px,env(safe-area-inset-bottom));overflow:hidden}
   body.tablemode:not(.tablefull) .edition,body.tablemode:not(.tablefull) .trip-intro,body.tablemode:not(.tablefull) .route-nav,body.tablemode:not(.tablefull) .journey-heading,body.tablemode:not(.tablefull) header p,body.tablemode:not(.tablefull) .legend,body.tablemode:not(.tablefull) #sizehint,body.tablemode:not(.tablefull) #framegrip,body.tablemode:not(.tablefull) main>details,body.tablemode:not(.tablefull) footer{display:none}
@@ -224,4 +224,17 @@ footer a{padding:8px 0;display:inline-block}
   body.tablemode:not(.tablefull) .table-shell{flex:1;min-height:0}
   body.tablemode:not(.tablefull) .frame{height:100%!important;min-height:0}
   body.tablemode:not(.tablefull) .hscroll{flex:0 0 22px;position:relative}
+}
+.event-note{display:none}
+@media(max-width:760px), (max-width:1024px) and (max-height:500px){
+  #tableview thead th{height:48px;padding:6px 8px;line-height:1.3;vertical-align:middle}
+  #tableview .datehead{font-size:14px;white-space:nowrap}
+  #tableview .cityhead{font-size:11px;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #tableview thead .people{display:none}
+  #tableview .note-full{display:none}
+  #tableview .event-note{display:block;margin:10px 0 0;padding:0;border:0;border-radius:0;background:transparent;font-size:inherit}
+  #tableview .event-note summary{min-height:44px;display:flex;align-items:center;gap:8px;color:var(--link);font-size:12px;cursor:pointer}
+  #tableview .event-note summary:before{content:'＋'}
+  #tableview .event-note[open] summary:before{content:'−'}
+  body.shorttable #tableview thead th{position:static}
 }
