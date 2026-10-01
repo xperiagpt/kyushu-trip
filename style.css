@@ -226,6 +226,16 @@ footer a{padding:8px 0;display:inline-block}
   body.tablemode:not(.tablefull) .hscroll{flex:0 0 22px;position:relative}
 }
 .event-note{display:none}
+.full-font{display:none}
+@media(max-width:760px), (max-width:1024px) and (max-height:500px), (hover:none) and (pointer:coarse){
+  body.tablefull .full-font{display:flex;position:fixed;top:max(8px,env(safe-area-inset-top));right:72px;height:44px;align-items:center;gap:10px;font-size:12px}
+  body.tablefull #fullfont{width:clamp(100px,35vw,200px);margin:0;min-height:44px}
+  body.tablefull.autorows .cell-content{padding:0.875em 0.75em}
+  @media(orientation:landscape){
+    body.tablefull .full-font{top:64px;right:8px;width:48px;height:auto;flex-direction:column;gap:8px}
+    body.tablefull #fullfont{writing-mode:vertical-lr;direction:rtl;width:44px;height:clamp(90px,40dvh,180px)}
+  }
+}
 /* Touch devices can have a desktop-sized CSS viewport in landscape. */
 @media(max-width:760px), (max-width:1024px) and (max-height:500px), (hover:none) and (pointer:coarse){
   html,body{width:100%;max-width:100%;overflow-x:clip}
