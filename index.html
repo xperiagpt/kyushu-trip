@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-Hant" class="dark">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 <title>2026 九州行程表</title><meta name="description" content="11/3–11/14 九州行程，手機單日卡片、桌面表格與地圖連結。">
 <link rel="stylesheet" href="style.css"><script src="itinerary.js" defer></script><script src="app.js" defer></script>
 </head>
@@ -10,7 +10,7 @@
 <header><div><h1>九州 · 隨身行程表</h1><p>2026/11/3–11/14 · 12 天 11 晚</p><p id="updated">讀取行程中…</p></div><div class="header-actions"><button id="fullscreen" class="iconbutton" aria-label="表格全螢幕" title="表格全螢幕" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9 3 3M3 8V3h5M15 9l6-6M16 3h5v5M9 15l-6 6M3 16v5h5M15 15l6 6M16 21h5v-5"/></svg></button><button id="theme" class="iconbutton" aria-label="切換白底" title="切換白底">☀️</button></div></header>
 <div class="toolbar">
 <button id="mode">切換顯示</button>
-<label class="tablecontrols fullcontrols">預設顯示天數 <select id="visibleDays" aria-label="預設顯示天數"><option>4</option><option>5</option><option>6</option><option selected>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select></label>
+<label class="tablecontrols fullcontrols">預設顯示天數 <select id="visibleDays" aria-label="預設顯示天數"><option value="auto">自動</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option selected>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select></label>
 <label class="tablecontrols fullcontrols">開始日 <select id="startdate" aria-label="表格開始日"></select></label>
 <button class="tablecontrols" id="lock" aria-pressed="true">🔒 尺寸已鎖定</button>
 <label class="tablecontrols">全部欄寬 <input id="width" type="range" min="1" max="520" step="any" value="160" disabled></label>

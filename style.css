@@ -48,6 +48,7 @@ html.dark .placeholder{background:#303236!important}
 .frame::-webkit-scrollbar:horizontal{height:0}
 .header-actions{display:flex;gap:8px;flex-shrink:0}
 body.daymode #fullscreen{display:none}
+body{touch-action:pan-x pan-y}
 #fullscreen svg{width:28px;height:28px;display:block;margin:auto}
 .table-shell{display:grid;grid-template-columns:minmax(0,1fr) 22px;gap:6px;min-height:0}
 .frame,.cell-content{scrollbar-width:none;scrollbar-gutter:auto}
@@ -66,3 +67,22 @@ body.tablefull{overflow:hidden}
 .tablefull .frame{height:100%!important;min-height:0}
 .tablefull .hscroll{flex:0 0 22px;position:relative}
 @media(max-width:760px){main{padding:12px}.iconbutton{font-size:24px}.tablecontrols{align-items:flex-start}.tablecontrols label{width:100%}.frame{resize:none}.card .time{font-size:1em}}
+@media(max-width:760px){
+  button,select{touch-action:manipulation}
+  select{font-size:16px}
+  body.tablemode main{padding:12px 8px}
+  body.tablemode .toolbar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:10px}
+  body.tablemode .toolbar label{width:auto;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:5px;font-size:13px}
+  body.tablemode .toolbar select,body.tablemode .toolbar input[type=range]{width:100%;min-width:0}
+  body.tablemode .toolbar button{font-size:13px;padding:8px}
+  body.tablemode .toolbar .fullcontrols{grid-column:1/-1;flex-direction:row;align-items:center;justify-content:space-between}
+  body.tablemode .toolbar .fullcontrols select{width:110px}
+  .tablemode .hint{font-size:12px;line-height:1.6}
+  .tablemode thead th{padding:9px 8px;height:90px}
+  .tablemode .cell-content{padding:12px;line-height:1.8}
+  .tablemode .slot .rowhead{padding:12px 3px}
+  .tablemode .places a{overflow-wrap:break-word}
+  body.tablefull .toolbar{display:flex;padding:8px 10px}
+  body.tablefull .toolbar .fullcontrols{flex-direction:row;font-size:12px;gap:5px}
+  body.tablefull .toolbar .fullcontrols select{width:auto}
+}
