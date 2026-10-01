@@ -8,12 +8,12 @@ body.daymode #tableview,body.daymode .tablecontrols,body.tablemode #dayview{disp
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
 /* Full-trip layout and shared row sizing. */
-html{--row-height:180px;--time-bg:#fff0ba;--time-text:#493200;--time-border:#bd8c22}
+html{--row-height:400px;--time-bg:#fff0ba;--time-text:#493200;--time-border:#bd8c22}
 html.dark{--bg:#0b0d11;--panel:#15191f;--time-bg:#ffe29a;--time-text:#312000;--time-border:#ffce62}
 main{max-width:none;padding:20px 16px}
 .iconbutton{font-size:24px;width:52px;height:52px;padding:6px;line-height:1}
 .time,.card .time{display:table;max-width:100%;font-size:.95em;font-weight:800;line-height:1.55;color:var(--time-text);background:var(--time-bg);border:1px solid var(--time-border);border-radius:7px;padding:4px 7px;margin-bottom:9px;font-variant-numeric:tabular-nums}
-.frame{resize:none;scrollbar-gutter:stable}
+.frame{resize:none;scrollbar-gutter:stable;overscroll-behavior:auto;min-height:100px}
 table{line-height:1.75}
 thead th{padding:10px 14px 10px 8px;height:100px}
 .datehead{font-size:1em;white-space:normal}
@@ -21,15 +21,47 @@ thead th{padding:10px 14px 10px 8px;height:100px}
 .slot{height:var(--row-height)}
 .slot td{padding:0}
 .slot .rowhead{height:var(--row-height);padding:12px 8px}
-.cell-content{height:calc(var(--row-height) * var(--span) - 1px);padding:10px 8px;overflow:auto;scrollbar-width:thin;overscroll-behavior:contain}
+.cell-content{height:calc(var(--row-height) * var(--span) - 1px);padding:10px 8px;overflow:auto;scrollbar-width:thin;overscroll-behavior:auto}
 .cell-content:focus-visible{outline-offset:-3px}
+.autorows .slot,.autorows .slot .rowhead{height:auto}
+.autorows .cell-content{height:auto;overflow:visible}
 .note{font-size:.9em}
 .places{line-height:1.85}
 .places a{display:inline;overflow-wrap:anywhere}
+#tableview .places .place-item{display:block;margin:5px 0}
+.place-separator{margin:0 6px}
+#tableview .place-separator{margin:0 0 0 3px}
 .rowgrip{position:absolute;bottom:0;left:0;right:0;height:12px;cursor:row-resize;touch-action:none}
 .rowgrip:after{content:"";position:absolute;bottom:3px;left:12px;right:12px;height:2px;background:var(--link)}
 .grip:after{background:var(--link)}
 .grip:hover,.rowgrip:hover{background:var(--head)}
 .sizeslocked .grip,.sizeslocked .rowgrip{visibility:hidden;pointer-events:none}
 input:disabled{opacity:.4;cursor:not-allowed}
+.slot-time span{display:block;text-align:center;white-space:nowrap;font-variant-numeric:tabular-nums}
+.placeholder{background:#d5d7da!important}
+html.dark .placeholder{background:#303236!important}
+.framegrip{height:18px;cursor:ns-resize;touch-action:none;display:flex;align-items:center;justify-content:center}
+.framegrip:after{content:"";width:64px;height:4px;border-radius:4px;background:var(--link)}
+.hscroll{position:sticky;bottom:0;z-index:12;height:22px;margin-right:28px;background:var(--head);border:1px solid var(--line);border-radius:7px;touch-action:none;cursor:pointer}
+#hthumb{position:absolute;top:3px;bottom:3px;left:0;min-width:36px;border-radius:5px;background:var(--muted);cursor:grab}
+.hscroll[aria-disabled=true] #hthumb{opacity:.4;cursor:default}
+.frame::-webkit-scrollbar:horizontal{height:0}
+.header-actions{display:flex;gap:8px;flex-shrink:0}
+#fullscreen svg{width:28px;height:28px;display:block;margin:auto}
+.table-shell{display:grid;grid-template-columns:minmax(0,1fr) 22px;gap:6px;min-height:0}
+.frame,.cell-content{scrollbar-width:none;scrollbar-gutter:auto}
+.frame::-webkit-scrollbar,.cell-content::-webkit-scrollbar{display:none;width:0;height:0}
+.vscroll{position:relative;min-height:0;background:var(--head);border:1px solid var(--line);border-radius:7px;touch-action:none;cursor:pointer}
+#vthumb{position:absolute;left:3px;right:3px;top:0;min-height:36px;border-radius:5px;background:var(--muted);cursor:grab}
+.vscroll[aria-disabled=true] #vthumb{opacity:.4;cursor:default}
+body.tablefull{overflow:hidden}
+.tablefull main{padding:0}
+.tablefull .toolbar>:not(.fullcontrols),.tablefull .legend,.tablefull #dayview,.tablefull details,.tablefull footer,.tablefull #sizehint,.tablefull #framegrip,.tablefull header>div:first-child,.tablefull #theme{display:none}
+.tablefull .toolbar{position:fixed;top:8px;left:8px;right:100px;z-index:25;margin:0;padding:8px 12px;width:fit-content;max-width:calc(100% - 108px);gap:8px 18px}
+.tablefull .toolbar .fullcontrols{display:flex;width:auto;flex-wrap:nowrap;white-space:nowrap}
+.tablefull header{position:fixed;top:8px;right:36px;z-index:25}
+.tablefull #tableview{position:fixed;inset:0;display:flex!important;flex-direction:column;gap:6px;padding:var(--full-toolbar-bottom,72px) 8px 8px;background:var(--bg)}
+.tablefull .table-shell{flex:1;min-height:0}
+.tablefull .frame{height:100%!important;min-height:0}
+.tablefull .hscroll{flex:0 0 22px;position:relative}
 @media(max-width:760px){main{padding:12px}.iconbutton{font-size:24px}.tablecontrols{align-items:flex-start}.tablecontrols label{width:100%}.frame{resize:none}.card .time{font-size:1em}}
