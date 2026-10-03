@@ -1,7 +1,7 @@
 {
   "title": "2026 九州旅行",
-  "updatedAt": "2026-10-01",
-  "sourceVersion": "MD 第 11 版 · 網頁格式 v18",
+  "updatedAt": "2026-10-04",
+  "sourceVersion": "主檔 2026-10-04 整理版 · 網頁格式 v18",
   "days": [
     {
       "date": "2026-11-03",
@@ -22,7 +22,7 @@
           ],
           "note": "07:45–07:55 抵 A1。",
           "kind": "move",
-          "status": "交通暫排"
+          "status": "交通已確定"
         },
         {
           "slot": 1,
@@ -45,13 +45,13 @@
           ],
           "note": "約 08:50–08:55 抵達；約 09:05 報到。",
           "kind": "move",
-          "status": "交通暫排"
+          "status": "交通已確定"
         },
         {
           "slot": 2,
           "span": 1,
-          "time": "臺灣 11:55",
-          "title": "AK1510 起飛",
+          "time": "臺灣 11:55／日本 12:55",
+          "title": "AK1510 起飛前準備",
           "places": [
             {
               "label": "桃園機場 T1",
@@ -62,22 +62,41 @@
               "query": "福岡空港 国際線ターミナル"
             }
           ],
-          "note": "依最新改期通知。",
+          "note": "日本 12:55 起飛、15:20 抵達；臺灣時間為 11:55–14:20。",
+          "kind": "move",
+          "status": "已訂航班"
+        },
+        {
+          "slot": 3,
+          "span": 1,
+          "time": "日本 12:55 起飛",
+          "title": "候機／AK1510 飛行中",
+          "places": [
+            {
+              "label": "桃園機場 T1",
+              "query": "臺灣桃園國際機場 第一航廈"
+            },
+            {
+              "label": "福岡機場",
+              "query": "福岡空港 国際線ターミナル"
+            }
+          ],
+          "note": "日本 12:55–15:20 飛行；12:00–14:00 時段已安排，不列待排。",
           "kind": "move",
           "status": "已訂航班"
         },
         {
           "slot": 4,
           "span": 1,
-          "time": "日本 15:20",
-          "title": "抵福岡、入境及提領行李",
+          "time": "日本 14:00–15:20／抵達後",
+          "title": "AK1510 飛行／抵福岡、入境及提領行李",
           "places": [
             {
               "label": "福岡機場",
               "query": "福岡空港 国際線ターミナル"
             }
           ],
-          "note": "",
+          "note": "日本 15:20 抵達，之後辦理入境及領行李。",
           "kind": "move",
           "status": "已訂航班"
         },
@@ -96,9 +115,9 @@
               "query": "MK HOTELS NISHINAKASU 福岡市中央区西中洲5-20"
             }
           ],
-          "note": "約 16:15–16:50 上車，約 16:45–17:30 抵飯店，依通關與交通調整。",
+          "note": "約 16:15–16:50 至國際航廈一樓普通計程車排班區，約 16:45–17:30 抵飯店；大型行李放不下時現場改搭大型車。細部時間依通關與交通調整。",
           "kind": "move",
-          "status": "交通暫排"
+          "status": "交通已確定"
         },
         {
           "slot": 6,
@@ -122,7 +141,23 @@
       "weekday": "三",
       "city": "福岡",
       "people": "3 人",
-      "events": []
+      "events": [
+        {
+          "slot": 6,
+          "span": 2,
+          "time": "19:30–21:30",
+          "title": "博多牛腸鍋晚餐",
+          "places": [
+            {
+              "label": "博多もつ鍋前田屋 西中洲店",
+              "query": "博多もつ鍋前田屋 西中洲店 西中洲1-2"
+            }
+          ],
+          "note": "建議 19:15–19:20 到店；遲到 15 分鐘取消。座位 2 小時、暢飲最後點單 90 分鐘；禁菸、不指定座位。",
+          "kind": "book",
+          "status": "已訂 · 3 人"
+        }
+      ]
     },
     {
       "date": "2026-11-05",
@@ -226,7 +261,7 @@
           ],
           "note": "新幹線約 14:00–14:40，正式班次待核。行李重可從熊本站改搭計程車。",
           "kind": "move",
-          "status": "交通暫排"
+          "status": "新幹線方式已確定 · 車次暫排"
         },
         {
           "slot": 5,
@@ -254,7 +289,7 @@
               "url": "https://maps.app.goo.gl/a2X5fU3EgLxX9PPK8"
             }
           ],
-          "note": "第二批須銜接晚餐；11/7 航班時間尚未提供。",
+          "note": "第二批須銜接晚餐，11/7 航班時間待核；若約 15:20 抵福岡，入境與跨城移動後趕 18:30 晚餐的緩衝偏小。",
           "kind": "book",
           "status": "已訂 · 4 人"
         }
@@ -277,7 +312,7 @@
               "query": "勝烈亭 新市街本店 熊本"
             }
           ],
-          "note": "現場候位，預留排隊時間。",
+          "note": "先按 11:00 開門、現場候位安排，午餐留排隊彈性。",
           "kind": "",
           "status": "想去 · 未訂位"
         }
@@ -355,9 +390,9 @@
       "people": "4 人",
       "events": [
         {
-          "slot": 2,
+          "slot": 1,
           "span": 1,
-          "time": "上午",
+          "time": "10:00 前",
           "title": "熊本退房",
           "places": [
             {
@@ -365,7 +400,7 @@
               "query": "熊本市中央区花畑町1-14"
             }
           ],
-          "note": "退房時間待核。",
+          "note": "入住 15:00、退房 10:00；退房後往福岡。",
           "kind": "move",
           "status": ""
         },
@@ -396,7 +431,7 @@
           "places": [
             {
               "label": "The LOFT INN FUKUOKA",
-              "query": "The LOFT INN FUKUOKA"
+              "url": "https://maps.app.goo.gl/NH61XWBXNFXXqdbaA"
             }
           ],
           "note": "先放行李、休息，再赴晚餐。",
@@ -414,7 +449,7 @@
               "url": "https://maps.app.goo.gl/Da26WkBtWrm98TmXA"
             }
           ],
-          "note": "預留前往餐廳時間。",
+          "note": "預留前往餐廳時間；餐廳頁列遲到超過 15 分鐘取消，以訂位通知為準。",
           "kind": "book",
           "status": "已訂 · 4 人"
         }
@@ -506,7 +541,7 @@
           "places": [
             {
               "label": "The LOFT INN FUKUOKA",
-              "query": "The LOFT INN FUKUOKA"
+              "url": "https://maps.app.goo.gl/NH61XWBXNFXXqdbaA"
             }
           ],
           "note": "安排寄放行李。",
@@ -516,12 +551,12 @@
         {
           "slot": 4,
           "span": 1,
-          "time": "入住時間待核",
+          "time": "15:00 起",
           "title": "換至河濱旅館",
           "places": [
             {
               "label": "博多河濱旅館",
-              "query": "Riverside Inn Hakata"
+              "url": "https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9"
             }
           ],
           "note": "可考慮購物／小鋼珠，尚未排定。",
@@ -537,6 +572,21 @@
       "people": "4 人",
       "events": [
         {
+          "slot": 1,
+          "span": 1,
+          "time": "10:00 前",
+          "title": "博多河濱旅館退房",
+          "places": [
+            {
+              "label": "博多河濱旅館",
+              "url": "https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9"
+            }
+          ],
+          "note": "整理行李、辦理退房，上午活動及寄放行李安排待排。",
+          "kind": "move",
+          "status": "已訂住宿"
+        },
+        {
           "slot": 2,
           "span": 1,
           "time": "上午",
@@ -544,10 +594,10 @@
           "places": [
             {
               "label": "博多河濱旅館",
-              "query": "Riverside Inn Hakata"
+              "url": "https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9"
             }
           ],
-          "note": "退房時間待核。",
+          "note": "退房後安排輕量活動，預留前往機場及報到時間。",
           "kind": "",
           "status": ""
         },
@@ -625,7 +675,7 @@
       "nights": 4,
       "name": "西中洲 MK 飯店",
       "query": "MK HOTELS NISHINAKASU 福岡市中央区西中洲5-20",
-      "note": "住 11/3–11/6 晚；退房 11:00，入住時間待飯店確認。"
+      "note": "住 11/3–11/6 晚；入住 15:00／退房 11:00。"
     },
     {
       "start": "2026-11-07",
@@ -633,7 +683,7 @@
       "nights": 3,
       "name": "A&M 花畑",
       "query": "熊本市中央区花畑町1-14",
-      "note": "住 11/7–11/9 晚；無電梯，需提行李上四樓。入住方式以房東通知為準。"
+      "note": "住 11/7–11/9 晚；入住 15:00／退房 10:00。無電梯，需提行李上四樓；入住方式以房東通知為準。"
     },
     {
       "start": "2026-11-10",
@@ -641,7 +691,8 @@
       "nights": 3,
       "name": "The LOFT INN FUKUOKA",
       "query": "The LOFT INN FUKUOKA",
-      "note": "住 11/10–11/12 晚；入住 15:00／退房 10:00。地圖搜尋須核對訂單地址。"
+      "note": "住 11/10–11/12 晚；入住 15:00／退房 10:00。",
+      "url": "https://maps.app.goo.gl/NH61XWBXNFXXqdbaA"
     },
     {
       "start": "2026-11-13",
@@ -649,7 +700,8 @@
       "nights": 1,
       "name": "博多河濱旅館",
       "query": "Riverside Inn Hakata",
-      "note": "住 11/13 晚；入住／退房時間待核。地圖搜尋須核對訂單地址。"
+      "note": "住 11/13 晚；入住 15:00／退房 10:00。",
+      "url": "https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9"
     }
   ]
 }
