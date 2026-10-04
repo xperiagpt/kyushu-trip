@@ -1,6 +1,6 @@
 # 2026 九州公開行程
 
-更新：2026-10-04；來源：主檔 2026-10-04 整理版 · 網頁格式 v18
+更新：2026-10-05；來源：主檔 2026-10-05 整理版 · 網頁格式 v19
 
 本文件由 itinerary.json 產生。私人完整主檔另存，不放入公開儲存庫。
 
@@ -26,6 +26,8 @@
 
 | 時間 | 行程 | 狀態 | 備註 |
 | --- | --- | --- | --- |
+| 10:00–14:00 | BIC CAMERA／武蔵午餐：[BIC CAMERA 天神](https://www.google.com/maps/search/?api=1&query=BIC%20CAMERA%20%E5%A4%A9%E7%A5%9E)、[博多牛まぶし 武蔵 天神店](https://maps.app.goo.gl/JgeHo5beJdjZ5V2Y7) | 🆕 暫排 · 未訂位 | 10:00–11:00 BIC CAMERA；11:10 武蔵候位、11:30 用餐；13:00–14:00 BIC CAMERA 續逛。午餐 3 人未訂位，營業與候位行前確認；避尖峰估計，非歷史最少排隊日。 |
+| 15:30–17:30 | UNIQLO 天神購物：[UNIQLO 福岡天神](https://www.google.com/maps/search/?api=1&query=UNIQLO%20%E7%A6%8F%E5%B2%A1%E5%A4%A9%E7%A5%9E) | 🆕 暫排 | 實際分店依動線選擇；之後休息，保留晚餐前緩衝。 |
 | 19:30–21:30 | 博多牛腸鍋晚餐：[博多もつ鍋前田屋 西中洲店](https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%82%82%E3%81%A4%E9%8D%8B%E5%89%8D%E7%94%B0%E5%B1%8B%20%E8%A5%BF%E4%B8%AD%E6%B4%B2%E5%BA%97%20%E8%A5%BF%E4%B8%AD%E6%B4%B21-2) | 已訂 · 3 人 | 建議 19:15–19:20 到店；遲到 15 分鐘取消。座位 2 小時、暢飲最後點單 90 分鐘；禁菸、不指定座位。 |
 
 住宿：[西中洲 MK 飯店](https://www.google.com/maps/search/?api=1&query=MK%20HOTELS%20NISHINAKASU%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%A5%BF%E4%B8%AD%E6%B4%B25-20)；住 11/3–11/6 晚；入住 15:00／退房 11:00。
@@ -36,7 +38,9 @@
 
 | 時間 | 行程 | 狀態 | 備註 |
 | --- | --- | --- | --- |
-| 全天 | 待排 | | |
+| 10:30–12:00 | ANIMATE 購物：[ANIMATE LACHIC 福岡天神](https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%A4%E3%83%88%20LACHIC%20%E7%A6%8F%E5%B2%A1%E5%A4%A9%E7%A5%9E%20%E5%A4%A9%E7%A5%9E2-1-1) | 🆕 暫排 | 使用 LACHIC 福岡天神 8 樓新址，按 10/24 搬遷公告安排。 |
+| 13:50–14:00 到店 | 葫蘆壽司午餐：[ひょうたん寿司（葫蘆壽司）](https://maps.app.goo.gl/ZtzChmdiFkg5P71q8) | 🆕 暫排 · 未訂位 | 3 人未訂位；晚午餐為避尖峰估計，非排隊保證。午餐最後點餐 14:30，若排長隊改日或改餐。 |
+| 15:30–18:00 | MELON BOOKS／天神書店：[MELON BOOKS 福岡天神](https://www.google.com/maps/search/?api=1&query=%E3%83%A1%E3%83%AD%E3%83%B3%E3%83%96%E3%83%83%E3%82%AF%E3%82%B9%20%E7%A6%8F%E5%B2%A1%E5%A4%A9%E7%A5%9E)、[天神書店](https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E6%9B%B8%E5%BA%97%20%E5%A4%A9%E7%A5%9E2-6-39%20%E6%98%8E%E6%B2%BB%E6%9C%83%E9%A4%A83%E6%A8%93) | 🆕 暫排 | 15:30–17:00 MELON BOOKS；17:15–18:00 天神書店（指定同名店，非一般書店）。晚餐待排。 |
 
 住宿：[西中洲 MK 飯店](https://www.google.com/maps/search/?api=1&query=MK%20HOTELS%20NISHINAKASU%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%A5%BF%E4%B8%AD%E6%B4%B25-20)；住 11/3–11/6 晚；入住 15:00／退房 11:00。
 
@@ -46,6 +50,7 @@
 
 | 時間 | 行程 | 狀態 | 備註 |
 | --- | --- | --- | --- |
+| 10:45 候位／11:00 用餐 | 麵屋兼虎午餐：[麵屋兼虎 天神西通店](https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E3%82%84%E5%85%BC%E8%99%8E%20%E5%A4%A9%E7%A5%9E%E8%A5%BF%E9%80%9A%E3%82%8A%E5%BA%97%20%E5%A4%A7%E5%90%8D1-14-45) | 🆕 暫排 · 未訂位 | 3 人未訂位，先排第一輪再前往運河城；平日開門時間行前確認。避尖峰估計，未核實一週最少排隊日。 |
 | 白天 · 時間待排 | 購物與休息：[博多運河城](https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%A3%E3%83%8A%E3%83%AB%E3%82%B7%E3%83%86%E3%82%A3%E5%8D%9A%E5%A4%9A) |  | 午餐店家待排。 |
 | 19:00 | 鰻魚晚餐：[うなぎ処 柳川屋 博多店](https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%AA%E3%81%8E%E5%87%A6%20%E6%9F%B3%E5%B7%9D%E5%B1%8B%20%E5%8D%9A%E5%A4%9A%E5%BA%97) | 已訂 · 3 人 | 可停留 2 小時；現場結帳。 |
 
@@ -72,6 +77,7 @@
 | 時間 | 行程 | 狀態 | 備註 |
 | --- | --- | --- | --- |
 | 午餐 · 時間未定 | 炸豬排午餐：[勝烈亭 新市街本店](https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E7%83%88%E4%BA%AD%20%E6%96%B0%E5%B8%82%E8%A1%97%E6%9C%AC%E5%BA%97%20%E7%86%8A%E6%9C%AC) | 想去 · 未訂位 | 先按 11:00 開門、現場候位安排，午餐留排隊彈性。 |
+| 14:00–16:00 | 松本清市區採買：[松本清 熊本市區](https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%83%84%E3%83%A2%E3%83%88%E3%82%AD%E3%83%A8%E3%82%B7%20%E7%86%8A%E6%9C%AC%20%E6%96%B0%E5%B8%82%E8%A1%97) | 🆕 暫排 | 實際分店依市區動線選擇；晚上待排／自由活動。 |
 
 住宿：[A&M 花畑](https://www.google.com/maps/search/?api=1&query=%E7%86%8A%E6%9C%AC%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%8A%B1%E7%95%91%E7%94%BA1-14)；住 11/7–11/9 晚；入住 15:00／退房 10:00。無電梯，需提行李上四樓；入住方式以房東通知為準。
 
@@ -96,6 +102,7 @@
 | 10:00 前 | 熊本退房：[A&M 花畑](https://www.google.com/maps/search/?api=1&query=%E7%86%8A%E6%9C%AC%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%8A%B1%E7%95%91%E7%94%BA1-14) |  | 入住 15:00、退房 10:00；退房後往福岡。 |
 | 時間待排 | 熊本 → 福岡：[熊本站](https://www.google.com/maps/search/?api=1&query=%E7%86%8A%E6%9C%AC%E9%A7%85)、[博多站](https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E9%A7%85) |  | 大眾運輸方案及班次待排。 |
 | 15:00 起 | 福岡入住與休息：[The LOFT INN FUKUOKA](https://maps.app.goo.gl/NH61XWBXNFXXqdbaA) | 已訂住宿 | 先放行李、休息，再赴晚餐。 |
+| 16:30–18:00 | MANDARAKE 福岡：[MANDARAKE 福岡](https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%82%93%E3%81%A0%E3%82%89%E3%81%91%20%E7%A6%8F%E5%B2%A1%E5%BA%97) | 🆕 暫排 | 入住後前往；若交通或入住延誤，縮短購物，保留 20:00 晚餐。 |
 | 20:00 | 大名燒肉晚餐：[肉の山翔](https://maps.app.goo.gl/Da26WkBtWrm98TmXA) | 已訂 · 4 人 | 預留前往餐廳時間；餐廳頁列遲到超過 15 分鐘取消，以訂位通知為準。 |
 
 住宿：[The LOFT INN FUKUOKA](https://maps.app.goo.gl/NH61XWBXNFXXqdbaA)；住 11/10–11/12 晚；入住 15:00／退房 10:00。
@@ -118,7 +125,7 @@
 
 | 時間 | 行程 | 狀態 | 備註 |
 | --- | --- | --- | --- |
-| 全天 | 待排 | | |
+| 約 09:00 出發／16:00–17:00 返回 | 糸島晴天行程：[糸島 二見浦海岸](https://www.google.com/maps/search/?api=1&query=%E6%A1%9C%E4%BA%95%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6%20%E7%B3%B8%E5%B3%B6) | 🆕 暫排 | 以二見浦為主，當地午餐店家待排、咖啡休息。天神單程約 60–90 分鐘，往返巴士班次待排；視天氣、風勢與能見度調整，雨天改室內購物／自由活動。 |
 
 住宿：[The LOFT INN FUKUOKA](https://maps.app.goo.gl/NH61XWBXNFXXqdbaA)；住 11/10–11/12 晚；入住 15:00／退房 10:00。
 
@@ -128,8 +135,9 @@
 
 | 時間 | 行程 | 狀態 | 備註 |
 | --- | --- | --- | --- |
-| 10:00 前 | 福岡飯店退房：[The LOFT INN FUKUOKA](https://maps.app.goo.gl/NH61XWBXNFXXqdbaA) | 換飯店 | 安排寄放行李。 |
+| 10:00 前 | 福岡飯店退房：[The LOFT INN FUKUOKA](https://maps.app.goo.gl/NH61XWBXNFXXqdbaA) | 換飯店 | 安排寄放行李。 退房後行李寄放方式待確認。 |
 | 15:00 起 | 換至河濱旅館：[博多河濱旅館](https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9) | 已訂住宿 | 可考慮購物／小鋼珠，尚未排定。 |
+| 16:00–18:00 | 福岡塔：[福岡塔](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E3%82%BF%E3%83%AF%E3%83%BC) | 🆕 暫排 | Riverside 入住後前往，視天氣與能見度調整；雨天改室內購物／自由活動。若糸島改至本日，先確認行李寄放，福岡塔另移空檔。 |
 
 住宿：[博多河濱旅館](https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9)；住 11/13 晚；入住 15:00／退房 10:00。
 

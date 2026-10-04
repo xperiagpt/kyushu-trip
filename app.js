@@ -6,7 +6,7 @@ if(!data){$('updated').textContent='行程資料載入失敗，請重新整理�
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function placeIcon(x,e){
   const label=x.label||x.name||'',context=(e?.title||'')+' '+(e?.note||'');
-  if(e?.kind==='book'||/午餐|晚餐|燒肉|炸豬排|天婦羅|勝烈亭|柳川屋|鶴八|馬桜|肉の山翔/.test(label))return '🍽️';
+  if(e?.kind==='book'||/午餐|晚餐|燒肉|炸豬排|天婦羅|勝烈亭|柳川屋|鶴八|馬桜|肉の山翔|武蔵|寿司|葫蘆|兼虎/.test(label))return '🍽️';
   if(/飯店|旅館|HOTELS|INN|花畑/.test(label))return '🏨';
   if(/計程車/.test(e?.title||''))return '🚕';
   if(/A1 |A12 |機場捷運|電停|市役所前/.test(label))return '🚊';
@@ -17,7 +17,8 @@ function placeIcon(x,e){
   if(/溫泉|地獄/.test(label))return '♨️';
   if(/阿蘇|由布嶽/.test(label))return '🌋';
   if(/草千里/.test(label))return '🌿';
-  if(/運河城/.test(label))return '🛍️';
+  if(/運河城|BIC CAMERA|UNIQLO|ANIMATE|MELON BOOKS|天神書店|松本清|MANDARAKE/.test(label))return '🛍️';
+  if(/二見浦|糸島/.test(label))return '🌊';
   return '📍';
 }
 function link(x,e,icon){const raw=x.url||'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(x.query||x.label);const url=new URL(raw);if(url.protocol!=='https:')throw Error('Map URL must be HTTPS');return '<a href="'+esc(url.href)+'" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">'+(icon||placeIcon(x,e))+'</span> '+esc(x.label||x.name)+'</a>';}
@@ -44,7 +45,7 @@ $('updated').textContent='行程更新：'+data.updatedAt+' · '+data.sourceVers
 $('date').innerHTML=data.days.map((d,i)=>'<option value="'+i+'">'+d.date.slice(5).replace('-','/')+'（'+d.weekday+'）</option>').join('');
 $('tabs').innerHTML=data.days.map((d,i)=>'<button class="tab" data-i="'+i+'">'+d.date.slice(5).replace('-','/')+'<small>週'+d.weekday+'</small></button>').join('');
 function renderDay(){routeState(selected);const d=data.days[selected];$('date').value=selected;$('city').textContent=city(d);$('count').textContent='第 '+(selected+1)+' / '+data.days.length+' 天 · '+d.people;document.querySelectorAll('.tab').forEach((t,i)=>{t.classList.toggle('active',i===selected);t.setAttribute('aria-pressed',i===selected?'true':'false');});$('prev').disabled=$('prevbottom').disabled=selected===0;$('next').disabled=$('nextbottom').disabled=selected===data.days.length-1;
-let html=d.events.map(e=>'<article class="card '+esc(e.kind)+'">'+eventHTML(e)+'</article>').join('');if(!html)html='<article class="card"><span class="time">全天</span><h3>行程待排</h3><span class="note">尚未安排景點、餐廳或小鋼珠時段。</span></article>';const h=data.hotels.find(h=>d.date>=h.start&&d.date<h.end);html+=h?'<article class="card stay"><div class="staylabel">當晚住宿 · 已訂妥付款</div>'+hotelHTML(h)+'</article>':'<article class="card"><div class="staylabel">當晚住宿</div><h3>已返臺，無日本住宿</h3></article>';$('cards').innerHTML=html;}
+let html='';for(let r=0;r<slots.length;){const events=d.events.filter(e=>e.slot===r),span=events[0]?.span||1,start=slots[r].split('–')[0],end=slots[r+span-1].split('–')[1];html+='<div class="day-slot"><div class="day-slot-label" aria-label="'+start+' 至 '+end+'"><span>'+start+'</span><span aria-hidden="true">～</span><span>'+end+'</span></div><article class="card '+esc(events[0]?.kind||'')+(events.length?'':' unscheduled')+'">'+(events.length?events.map(eventHTML).join(''):'<h3>行程待排</h3><span class="note">自由活動／休息，可再安排。</span>')+'</article></div>';r+=span;}const h=data.hotels.find(h=>d.date>=h.start&&d.date<h.end);html+='<div class="day-slot"><div class="day-slot-label stay-slot-label">住宿</div>'+(h?'<article class="card stay"><div class="staylabel">當晚住宿 · 已訂妥付款</div>'+hotelHTML(h)+'</article>':'<article class="card unscheduled"><div class="staylabel">當晚住宿</div><h3>已返臺，無日本住宿</h3></article>')+'</div>';$('cards').innerHTML=html;}
 function select(i,top){selected=Math.max(0,Math.min(data.days.length-1,i));renderDay();const t=$('tabs').children[selected];$('tabs').scrollTo({left:Math.max(0,t.offsetLeft-$('tabs').offsetLeft-$('tabs').clientWidth/2+t.offsetWidth/2),behavior:'smooth'});if(top)window.scrollTo({top:0,behavior:'smooth'});}
 $('date').onchange=()=>select(Number($('date').value));$('tabs').onclick=e=>{const t=e.target.closest('button[data-i]');if(t)select(Number(t.dataset.i));};$('prev').onclick=()=>select(selected-1);$('next').onclick=()=>select(selected+1);$('prevbottom').onclick=()=>select(selected-1,true);$('nextbottom').onclick=()=>select(selected+1,true);
 const slots=['06:00–08:00','08:00–10:00','10:00–12:00','12:00–14:00','14:00–16:00','16:00–18:00','18:00–20:00','20:00–22:00'];

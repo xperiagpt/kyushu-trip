@@ -278,3 +278,21 @@ footer a{padding:8px 0;display:inline-block}
   #tableview .event-note[open] summary:before{content:'−'}
   body.shorttable #tableview thead th{position:static}
 }
+
+/* Day cards share the table time slots, with an external time gutter. */
+#cards{padding-left:0}
+#cards:before,#cards .card:before{display:none}
+.day-slot{display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;align-items:start}
+.day-slot-label{padding-top:20px;text-align:center;font-size:12px;line-height:1.6;font-weight:650;color:var(--muted);font-variant-numeric:tabular-nums}
+.day-slot-label span{display:block;white-space:nowrap}
+#cards .card{min-width:0}
+#cards .card.unscheduled{background:#e5e7e8;border-left-color:#90989b;min-height:100px}
+html.dark #cards .card.unscheduled{background:#292d30;border-color:#434a4d;border-left-color:#798388}
+.card.unscheduled h3{color:var(--muted);font-weight:550}
+@media(max-width:760px){
+  #cards{padding-left:0;gap:12px}
+  .day-slot{grid-template-columns:48px minmax(0,1fr);gap:8px}
+  .day-slot-label{font-size:11px;padding-top:16px}
+  #cards .card{padding:16px 12px}
+  .daybottom{padding-left:56px}
+}
