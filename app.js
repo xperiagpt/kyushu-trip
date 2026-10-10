@@ -7,7 +7,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 function placeIcon(x,e){
   const label=x.label||x.name||'',context=(e?.title||'')+' '+(e?.note||'');
   if(e?.kind==='book'||/午餐|晚餐|燒肉|炸豬排|天婦羅|勝烈亭|柳川屋|鶴八|馬桜|肉の山翔|武蔵|寿司|葫蘆|兼虎/.test(label))return '🍽️';
-  if(/飯店|旅館|HOTELS|INN|花畑/.test(label))return '🏨';
+  if(/飯店|旅館|Hotel|HOTELS|INN|花畑/.test(label))return '🏨';
   if(/計程車/.test(e?.title||''))return '🚕';
   if(/A1 |A12 |機場捷運|電停|市役所前/.test(label))return '🚊';
   if(/機場|空港|航廈/.test(label))return '✈️';
@@ -23,9 +23,10 @@ function placeIcon(x,e){
 }
 function link(x,e,icon){const raw=x.url||'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(x.query||x.label);const url=new URL(raw);if(url.protocol!=='https:')throw Error('Map URL must be HTTPS');return '<a href="'+esc(url.href)+'" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">'+(icon||placeIcon(x,e))+'</span> '+esc(x.label||x.name)+'</a>';}
 function city(d){const n=Number(d.date.slice(-2));return n===7?'福岡 → 熊本':n===10?'熊本 → 福岡':n===14?'福岡 → 桃園':d.city;}
-function eventHTML(e){const places=e.places.map((p,i)=>'<span class="place-item">'+link(p,e)+(e.kind==='move'&&i<e.places.length-1?'<span class="place-separator" aria-label="前往">→</span>':'')+'</span>').join(' ');return '<div class="event"><span class="time"><span aria-hidden="true">🕒 </span>'+esc(e.time)+'</span><b>'+esc(e.title)+'</b>'+(e.places.length?'<div class="places '+(e.kind==='move'?'route':'')+'">'+places+'</div>':'')+(e.status?'<span class="badge">'+esc(e.status)+'</span>':'')+(e.note?'<span class="note">'+esc(e.note)+'</span>':'')+'</div>';}
-function hotelHTML(h,compact=false){const note='<span class="note">'+esc(h.note)+'</span>';return '<span class="hotelname">'+link({label:h.name,query:h.query,url:h.url},null,'🏨')+'</span>'+h.start.slice(5).replace('-','/')+' 入住 → '+h.end.slice(5).replace('-','/')+' 退房 · '+h.nights+' 晚'+(compact&&h.note.length>24?'<span class="note note-full">'+esc(h.note)+'</span><details class="event-note"><summary>住宿備註</summary>'+note+'</details>':note);}
-function tableEventHTML(e){if(!e.note||e.note.length<=24)return eventHTML(e);const html=eventHTML(e),note='<span class="note">'+esc(e.note)+'</span>';return html.replace(note,'<span class="note note-full">'+esc(e.note)+'</span><details class="event-note"><summary>查看備註</summary>'+note+'</details>');}
+function noteHTML(note,extra=''){return '<span class="note'+extra+'">'+esc(note).replace(/\r?\n/g,'<br>')+'</span>';}
+function eventHTML(e){const places=e.places.map((p,i)=>'<span class="place-item">'+link(p,e)+(e.kind==='move'&&i<e.places.length-1?'<span class="place-separator" aria-label="前往">→</span>':'')+'</span>').join(' ');return '<div class="event"><span class="time"><span aria-hidden="true">🕒 </span>'+esc(e.time)+'</span><b>'+esc(e.title)+'</b>'+(e.places.length?'<div class="places '+(e.kind==='move'?'route':'')+'">'+places+'</div>':'')+(e.status?'<span class="badge">'+esc(e.status)+'</span>':'')+(e.note?noteHTML(e.note):'')+'</div>';}
+function hotelHTML(h,compact=false){const note=noteHTML(h.note);return '<span class="hotelname">'+link({label:h.name,query:h.query,url:h.url},null,'🏨')+'</span>'+h.start.slice(5).replace('-','/')+' 入住 → '+h.end.slice(5).replace('-','/')+' 退房 · '+h.nights+' 晚'+(compact&&h.note.length>24?noteHTML(h.note,' note-full')+'<details class="event-note"><summary>住宿備註</summary>'+note+'</details>':note);}
+function tableEventHTML(e){if(!e.note||e.note.length<=24)return eventHTML(e);const html=eventHTML(e),note=noteHTML(e.note);return html.replace(note,noteHTML(e.note,' note-full')+'<details class="event-note"><summary>查看備註</summary>'+note+'</details>');}
 let selected=0,forced=false,widths=data.days.map(()=>160),autoFit=true,locked=true,rowHeight=400,visibleDays=7,manualRows=false,manualViewport=false,startIndex=0,shownDays=[];
 let tableFull=false,fullState=null;
 function phoneLayout(){return matchMedia('(max-width:760px), (max-width:1024px) and (max-height:500px), (hover:none) and (pointer:coarse)').matches;}
