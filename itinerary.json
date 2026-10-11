@@ -1,7 +1,7 @@
 {
   "title": "2026 九州旅行",
-  "updatedAt": "2026-10-10",
-  "sourceVersion": "主檔 2026-10-05 整理版＋10/10 住宿／交通附件核對 · 網頁格式 v21",
+  "updatedAt": "2026-10-11",
+  "sourceVersion": "主檔 2026-10-10 整理版＋10/11 對話住宿異動 · 網頁格式 v22",
   "days": [
     {
       "date": "2026-11-03",
@@ -335,7 +335,7 @@
               "query": "博多駅"
             }
           ],
-          "note": "交通時間：約 11:30–12:15 搭計程車。\n候車安排：12:15–13:45 午餐、取票／候車。\n交通提醒：保留 14:01 發車前進站時間。",
+          "note": "交通時間：約 11:30–12:15 搭計程車。\n候車安排：12:15–13:30 午餐、取票、確認月台；13:30–13:50 前往月台候車。\n交通提醒：保留 14:01 發車前進站時間。",
           "kind": "move",
           "status": "交通暫排"
         },
@@ -679,36 +679,6 @@
       "people": "4 人",
       "events": [
         {
-          "slot": 1,
-          "span": 1,
-          "time": "10:00 前",
-          "title": "福岡飯店退房",
-          "places": [
-            {
-              "label": "The LOFT INN FUKUOKA",
-              "url": "https://maps.app.goo.gl/NH61XWBXNFXXqdbaA"
-            }
-          ],
-          "note": "退房時間：10:00 前。\n行李提醒：退房後寄放方式待確認。",
-          "kind": "move",
-          "status": "換飯店"
-        },
-        {
-          "slot": 4,
-          "span": 1,
-          "time": "15:00 起",
-          "title": "換至河濱旅館",
-          "places": [
-            {
-              "label": "博多河濱旅館",
-              "url": "https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9"
-            }
-          ],
-          "note": "入住時間：15:00 起。\n待安排：入住前後購物／小鋼珠。",
-          "kind": "move",
-          "status": "已訂住宿"
-        },
-        {
           "slot": 5,
           "span": 1,
           "time": "16:00–18:00",
@@ -719,7 +689,7 @@
               "query": "福岡タワー"
             }
           ],
-          "note": "景點安排：Riverside 入住後前往福岡塔。\n天氣提醒：視天氣與能見度調整；雨天改室內購物／自由活動。\n行程提醒：若糸島改至本日，先確認行李寄放，福岡塔另移空檔。",
+          "note": "景點安排：下午前往福岡塔。\n天氣提醒：視天氣與能見度調整；雨天改室內購物／自由活動。\n行程提醒：若糸島改至本日，福岡塔另移空檔。",
           "kind": "",
           "status": "🆕 暫排"
         }
@@ -735,11 +705,11 @@
           "slot": 1,
           "span": 1,
           "time": "10:00 前",
-          "title": "博多河濱旅館退房",
+          "title": "The LOFT INN FUKUOKA 退房",
           "places": [
             {
-              "label": "博多河濱旅館",
-              "url": "https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9"
+              "label": "The LOFT INN FUKUOKA",
+              "url": "https://maps.app.goo.gl/NH61XWBXNFXXqdbaA"
             }
           ],
           "note": "退房時間：10:00 前。\n行程安排：整理行李、辦理退房。\n確認事項：上午活動及行李寄放待排。",
@@ -753,8 +723,8 @@
           "title": "輕量活動／整理行李",
           "places": [
             {
-              "label": "博多河濱旅館",
-              "url": "https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9"
+              "label": "The LOFT INN FUKUOKA",
+              "url": "https://maps.app.goo.gl/NH61XWBXNFXXqdbaA"
             }
           ],
           "note": "行程安排：退房後輕量活動。\n交通提醒：預留前往機場及報到時間。",
@@ -835,7 +805,7 @@
       "nights": 4,
       "name": "Hotel Edge Nakasu",
       "query": "Hotel Edge Nakasu 福岡市博多区中洲中島町3-4",
-      "note": "入住時間：15:00 起。\n退房時間：11:00 前。\n最晚入住：00:00。\n住宿人數：3 人。\n地址：福岡市博多區中洲中島町 3-4。"
+      "note": "入住時間：15:00 起。\n退房時間：11:00 前。\n最晚入住：00:00。\n住宿人數：3 人。\n地址：福岡市博多區中洲中島町 3-4。\n付款狀態：待確認。\n住宿提醒：禁菸、不含餐。"
     },
     {
       "start": "2026-11-07",
@@ -847,21 +817,12 @@
     },
     {
       "start": "2026-11-10",
-      "end": "2026-11-13",
-      "nights": 3,
+      "end": "2026-11-14",
+      "nights": 4,
       "name": "The LOFT INN FUKUOKA",
       "query": "The LOFT INN FUKUOKA",
       "note": "入住時間：15:00 起。\n退房時間：10:00 前。",
       "url": "https://maps.app.goo.gl/NH61XWBXNFXXqdbaA"
-    },
-    {
-      "start": "2026-11-13",
-      "end": "2026-11-14",
-      "nights": 1,
-      "name": "博多河濱旅館",
-      "query": "Riverside Inn Hakata",
-      "note": "入住時間：15:00 起。\n退房時間：10:00 前。",
-      "url": "https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9"
     }
   ]
 }

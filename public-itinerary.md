@@ -1,6 +1,6 @@
 # 2026 九州公開行程
 
-更新：2026-10-10；來源：主檔 2026-10-05 整理版＋10/10 住宿／交通附件核對 · 網頁格式 v21
+更新：2026-10-11；來源：主檔 2026-10-10 整理版＋10/11 對話住宿異動 · 網頁格式 v22
 
 本文件由 itinerary.json 產生。私人完整主檔另存，不放入公開儲存庫。
 
@@ -18,7 +18,7 @@
 | 約 16:15–17:30 | 排班計程車 → 飯店入住：[福岡機場國際航廈](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E9%9A%9B%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB)、[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4) | 交通已確定 | 交通時間：約 16:15–16:50 至國際航廈一樓普通計程車排班區。<br>抵達時間：約 16:45–17:30 抵 Hotel Edge Nakasu。<br>行李提醒：大型行李放不下時，現場改搭大型車。<br>時間提醒：細部時間依通關與交通調整。 |
 | 19:00 | 藥院燒肉：[藥院燒肉 NIKUICHI](https://www.google.com/maps/search/?api=1&query=%E8%96%AC%E9%99%A2%E7%84%BC%E8%82%89%20NIKUICHI%20%E7%A6%8F%E5%B2%A1) | 已訂 · 3 人 | 到店提醒：先至飯店放行李，再前往餐廳。 |
 
-住宿：[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4)；入住時間：15:00 起。<br>退房時間：11:00 前。<br>最晚入住：00:00。<br>住宿人數：3 人。<br>地址：福岡市博多區中洲中島町 3-4。
+住宿：[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4)；入住時間：15:00 起。<br>退房時間：11:00 前。<br>最晚入住：00:00。<br>住宿人數：3 人。<br>地址：福岡市博多區中洲中島町 3-4。<br>付款狀態：待確認。<br>住宿提醒：禁菸、不含餐。
 
 ## 2026-11-04（三）
 
@@ -30,7 +30,7 @@
 | 15:30–17:30 | UNIQLO 天神購物：[UNIQLO 福岡天神](https://www.google.com/maps/search/?api=1&query=UNIQLO%20%E7%A6%8F%E5%B2%A1%E5%A4%A9%E7%A5%9E) | 🆕 暫排 | 購物安排：實際分店依動線選擇。<br>行程提醒：之後休息，保留晚餐前緩衝。 |
 | 19:30–21:30 | 博多牛腸鍋晚餐：[博多もつ鍋前田屋 西中洲店](https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%82%82%E3%81%A4%E9%8D%8B%E5%89%8D%E7%94%B0%E5%B1%8B%20%E8%A5%BF%E4%B8%AD%E6%B4%B2%E5%BA%97%20%E8%A5%BF%E4%B8%AD%E6%B4%B21-2) | 已訂 · 3 人 | 到店提醒：建議 19:15–19:20 到店。<br>用餐提醒：座位 2 小時；暢飲最後點單 90 分鐘。<br>座位提醒：禁菸、不指定座位。<br>訂位提醒：遲到 15 分鐘取消。 |
 
-住宿：[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4)；入住時間：15:00 起。<br>退房時間：11:00 前。<br>最晚入住：00:00。<br>住宿人數：3 人。<br>地址：福岡市博多區中洲中島町 3-4。
+住宿：[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4)；入住時間：15:00 起。<br>退房時間：11:00 前。<br>最晚入住：00:00。<br>住宿人數：3 人。<br>地址：福岡市博多區中洲中島町 3-4。<br>付款狀態：待確認。<br>住宿提醒：禁菸、不含餐。
 
 ## 2026-11-05（四）
 
@@ -42,7 +42,7 @@
 | 13:50–14:00 到店 | 葫蘆壽司午餐：[ひょうたん寿司（葫蘆壽司）](https://maps.app.goo.gl/ZtzChmdiFkg5P71q8) | 🆕 暫排 · 未訂位 | 用餐安排：3 人未訂位，晚午餐為避尖峰估計。<br>候位提醒：非排隊保證；若排長隊，改日或改餐。<br>用餐提醒：午餐最後點餐 14:30。 |
 | 15:30–18:00 | MELON BOOKS／天神書店：[MELON BOOKS 福岡天神](https://www.google.com/maps/search/?api=1&query=%E3%83%A1%E3%83%AD%E3%83%B3%E3%83%96%E3%83%83%E3%82%AF%E3%82%B9%20%E7%A6%8F%E5%B2%A1%E5%A4%A9%E7%A5%9E)、[天神書店](https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E6%9B%B8%E5%BA%97%20%E5%A4%A9%E7%A5%9E2-6-39%20%E6%98%8E%E6%B2%BB%E6%9C%83%E9%A4%A83%E6%A8%93) | 🆕 暫排 | 購物安排：15:30–17:00 MELON BOOKS；17:15–18:00 天神書店。<br>店址提醒：天神書店為指定同名店。<br>待安排：晚餐。 |
 
-住宿：[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4)；入住時間：15:00 起。<br>退房時間：11:00 前。<br>最晚入住：00:00。<br>住宿人數：3 人。<br>地址：福岡市博多區中洲中島町 3-4。
+住宿：[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4)；入住時間：15:00 起。<br>退房時間：11:00 前。<br>最晚入住：00:00。<br>住宿人數：3 人。<br>地址：福岡市博多區中洲中島町 3-4。<br>付款狀態：待確認。<br>住宿提醒：禁菸、不含餐。
 
 ## 2026-11-06（五）
 
@@ -54,7 +54,7 @@
 | 白天 · 時間待排 | 購物與休息：[博多運河城](https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%A3%E3%83%8A%E3%83%AB%E3%82%B7%E3%83%86%E3%82%A3%E5%8D%9A%E5%A4%9A) |  | 行程安排：午餐後前往運河城購物與休息。 |
 | 19:00 | 鰻魚晚餐：[うなぎ処 柳川屋 博多店](https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%AA%E3%81%8E%E5%87%A6%20%E6%9F%B3%E5%B7%9D%E5%B1%8B%20%E5%8D%9A%E5%A4%9A%E5%BA%97) | 已訂 · 3 人 | 用餐提醒：可停留 2 小時；現場結帳。 |
 
-住宿：[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4)；入住時間：15:00 起。<br>退房時間：11:00 前。<br>最晚入住：00:00。<br>住宿人數：3 人。<br>地址：福岡市博多區中洲中島町 3-4。
+住宿：[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4)；入住時間：15:00 起。<br>退房時間：11:00 前。<br>最晚入住：00:00。<br>住宿人數：3 人。<br>地址：福岡市博多區中洲中島町 3-4。<br>付款狀態：待確認。<br>住宿提醒：禁菸、不含餐。
 
 ## 2026-11-07（六）
 
@@ -63,7 +63,7 @@
 | 時間 | 行程 | 狀態 | 備註 |
 | --- | --- | --- | --- |
 | 10:30–11:00 | 福岡退房／同行者交接：[Hotel Edge Nakasu](https://www.google.com/maps/search/?api=1&query=Hotel%20Edge%20Nakasu%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B2%E4%B8%AD%E5%B3%B6%E7%94%BA3-4) | 已訂住宿 · 退房安排 | 退房時間：11:00 前。<br>行程安排：Hotel Edge Nakasu 整理、退房，與第一批道別。<br>同行安排：第一批約中午離開；本人獨自先往熊本。 |
-| 約 11:30–13:45 | 往博多站、午餐、取票／候車：[博多站](https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E9%A7%85) | 交通暫排 | 交通時間：約 11:30–12:15 搭計程車。<br>候車安排：12:15–13:45 午餐、取票／候車。<br>交通提醒：保留 14:01 發車前進站時間。 |
+| 約 11:30–13:45 | 往博多站、午餐、取票／候車：[博多站](https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E9%A7%85) | 交通暫排 | 交通時間：約 11:30–12:15 搭計程車。<br>候車安排：12:15–13:30 午餐、取票、確認月台；13:30–13:50 前往月台候車。<br>交通提醒：保留 14:01 發車前進站時間。 |
 | 14:01–14:39／市電銜接 | Sakura 753 → 熊本路面電車：[博多站](https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E9%A7%85)、[熊本站](https://www.google.com/maps/search/?api=1&query=%E7%86%8A%E6%9C%AC%E9%A7%85)、[熊本城・市役所前](https://www.google.com/maps/search/?api=1&query=%E7%86%8A%E6%9C%AC%E5%9F%8E%20%E5%B8%82%E5%BD%B9%E6%89%80%E5%89%8D%20%E9%9B%BB%E5%81%9C) | 新幹線已訂 · 路面電車已確定 | 列車班次：Sakura 753。<br>交通時間：博多 14:01 出發 → 熊本 14:39 抵達。<br>銜接安排：熊本站前搭 A 系統路面電車往健軍町，於熊本城・市役所前下車，再步行至 A&M。<br>時間提醒：市電約 14:50–15:15 為估算，實際依當日班次與步行時間。 |
 | 15:15 後 | 入住並等第二批朋友：[A&M 花畑](https://www.google.com/maps/search/?api=1&query=%E7%86%8A%E6%9C%AC%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%8A%B1%E7%95%91%E7%94%BA1-14) | 已訂住宿 | 入住時間：15:00 起。<br>行程安排：預計 15:15 後抵達，入住並等第二批朋友。<br>行李提醒：無電梯，需提行李上四樓。 |
 | 18:30 | 馬肉料理晚餐：[馬桜 銀座通り店](https://maps.app.goo.gl/a2X5fU3EgLxX9PPK8) | 已訂 · 4 人 | 到店提醒：第二批須銜接 18:30 晚餐。<br>交通提醒：若約 15:20 抵福岡，入境與跨城移動後的緩衝偏小。<br>確認事項：11/7 航班時間待核。 |
@@ -135,11 +135,9 @@
 
 | 時間 | 行程 | 狀態 | 備註 |
 | --- | --- | --- | --- |
-| 10:00 前 | 福岡飯店退房：[The LOFT INN FUKUOKA](https://maps.app.goo.gl/NH61XWBXNFXXqdbaA) | 換飯店 | 退房時間：10:00 前。<br>行李提醒：退房後寄放方式待確認。 |
-| 15:00 起 | 換至河濱旅館：[博多河濱旅館](https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9) | 已訂住宿 | 入住時間：15:00 起。<br>待安排：入住前後購物／小鋼珠。 |
-| 16:00–18:00 | 福岡塔：[福岡塔](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E3%82%BF%E3%83%AF%E3%83%BC) | 🆕 暫排 | 景點安排：Riverside 入住後前往福岡塔。<br>天氣提醒：視天氣與能見度調整；雨天改室內購物／自由活動。<br>行程提醒：若糸島改至本日，先確認行李寄放，福岡塔另移空檔。 |
+| 16:00–18:00 | 福岡塔：[福岡塔](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E3%82%BF%E3%83%AF%E3%83%BC) | 🆕 暫排 | 景點安排：下午前往福岡塔。<br>天氣提醒：視天氣與能見度調整；雨天改室內購物／自由活動。<br>行程提醒：若糸島改至本日，福岡塔另移空檔。 |
 
-住宿：[博多河濱旅館](https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9)；入住時間：15:00 起。<br>退房時間：10:00 前。
+住宿：[The LOFT INN FUKUOKA](https://maps.app.goo.gl/NH61XWBXNFXXqdbaA)；入住時間：15:00 起。<br>退房時間：10:00 前。
 
 ## 2026-11-14（六）
 
@@ -147,8 +145,8 @@
 
 | 時間 | 行程 | 狀態 | 備註 |
 | --- | --- | --- | --- |
-| 10:00 前 | 博多河濱旅館退房：[博多河濱旅館](https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9) | 已訂住宿 | 退房時間：10:00 前。<br>行程安排：整理行李、辦理退房。<br>確認事項：上午活動及行李寄放待排。 |
-| 上午 | 輕量活動／整理行李：[博多河濱旅館](https://maps.app.goo.gl/8ZrSvbF5XgUJVzAk9) |  | 行程安排：退房後輕量活動。<br>交通提醒：預留前往機場及報到時間。 |
+| 10:00 前 | The LOFT INN FUKUOKA 退房：[The LOFT INN FUKUOKA](https://maps.app.goo.gl/NH61XWBXNFXXqdbaA) | 已訂住宿 | 退房時間：10:00 前。<br>行程安排：整理行李、辦理退房。<br>確認事項：上午活動及行李寄放待排。 |
+| 上午 | 輕量活動／整理行李：[The LOFT INN FUKUOKA](https://maps.app.goo.gl/NH61XWBXNFXXqdbaA) |  | 行程安排：退房後輕量活動。<br>交通提醒：預留前往機場及報到時間。 |
 | 出發時間待排 | 前往機場：[福岡機場國際航廈](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E9%9A%9B%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB) |  | 交通提醒：預留報到、托運與安檢時間。 |
 | 起飛前 | 機場報到：[福岡機場國際航廈](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E9%9A%9B%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB) |  | 航班時間：日本 16:20 起飛 → 臺灣 18:10 抵達。<br>確認事項：交通與報到時程待排。 |
 | 日本 16:20 | AK1511 起飛：[福岡機場](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E9%9A%9B%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB)、[桃園機場 T1](https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E7%81%A3%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%20%E7%AC%AC%E4%B8%80%E8%88%AA%E5%BB%88) | 已訂航班 | 航班時間：日本 16:20 起飛 → 臺灣 18:10 抵達。<br>航班提醒：依最新改期通知。 |
